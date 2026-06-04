@@ -1,0 +1,81 @@
+Fertilizer Recommendation System
+
+Introduction :
+Agriculture plays a vital role in food production and the economy. One of the major challenges faced by farmers is selecting the correct fertilizer for their crops. Different crops and soil conditions require different fertilizers to achieve maximum yield. Choosing the wrong fertilizer can reduce productivity, increase costs, and negatively affect soil health.
+
+Problem Statement:
+Farmers often rely on experience or manual recommendations to choose fertilizers. This process may not always provide accurate results because soil nutrients, moisture levels, and environmental conditions vary from place to place. The proposed system aims to recommend the most suitable fertilizer based on soil and crop characteristics using Machine Learning.
+
+Objectives:
+* To analyze soil and environmental parameters.
+* To build a machine learning model that predicts the most suitable fertilizer.
+* To help farmers make informed decisions.
+* To improve crop productivity and reduce fertilizer wastage.
+
+End Users:
+* Farmers
+* Agricultural Officers
+* Agritech Companies
+* Agricultural Researchers
+
+Dataset Used:
+The project uses the Fertilizer Prediction Dataset. The dataset contains information about soil conditions, crop types, and nutrient levels along with the fertilizer recommended for those conditions.
+
+Dataset Attributes:
+* Temperature
+* Humidity
+* Moisture
+* Soil Type
+* Crop Type
+* Nitrogen
+* Potassium
+* Phosphorous
+* Fertilizer Name (Target Variable)
+
+Dataset Collection:
+The dataset is downloaded from publicly available machine learning repositories such as Kaggle. It contains multiple records representing different combinations of soil and crop conditions.
+
+Machine Learning Approach:
+
+The following steps are used in the project:
+1. Data Collection
+2. Data Cleaning
+3. Data Preprocessing
+4. Label Encoding of categorical values
+5. Feature Selection
+6. Train-Test Split
+7. Model Training
+8. Prediction
+9. Model Evaluation
+10. Model Saving using Pickle (.pkl)
+
+Model Used:
+For the initial implementation, Linear Regression is used to understand the machine learning workflow. In future versions, classification algorithms such as Decision Tree, Random Forest, or Support Vector Machine can be used to improve prediction accuracy.
+
+Expected Output:
+The system accepts soil and environmental parameters as input and predicts the most suitable fertilizer for the given conditions.
+
+Proposed Web Application:
+
+The web application will contain:
+* Input form for soil and crop details
+* Predict button
+* Fertilizer recommendation result page
+* User-friendly interface for farmers
+
+Benefits:
+* Saves time in fertilizer selection
+* Reduces fertilizer wastage
+* Improves crop productivity
+* Supports data-driven farming decisions
+* Easy to use and scalable
+
+Future Enhancements:
+* Integration with real-time soil sensors
+* Mobile application support
+* Weather-based recommendations
+* Multi-language support
+* Advanced machine learning models with higher accuracy
+
+Conclusion:
+The Fertilizer Recommendation System is a useful machine learning application that helps farmers choose the right fertilizer based on soil and crop conditions. By using data-driven recommendations, the system can contribute to improved agricultural productivity and sustainable farming practices.
